@@ -1,0 +1,4 @@
+The data contain tonic-clonic seizures of a subject recorded with a 
+scalp right central (C4) electrode (linked earlobes reference). 
+It contains a total of 3 minutes with about 1 min pre-seizure, 
+the seizure and some post-seizure activity. Sampling rate is 102.4 Hz.
