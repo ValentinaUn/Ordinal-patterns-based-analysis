@@ -12,18 +12,26 @@ The interface of OPA toolbox is provided by a function OPanalysis( cfg, indata )
  - cfg is a configuration structure with method's parameters;
  - indata is data to be analyzed.
 
-Example of use (see more examples for different methods and parameters 
-in examples.m and OPanalysis.m help):
+Example of use (see more examples for different methods and parameters in examples.m and OPanalysis.m help):
 
 cfg            = [];
+
 cfg.method     = 'opdPE'; % try also 'PE', 'CE', 'rePE' and 'all' here
+
 cfg.order      = 3;       % for ordinal pattens of order 3 (4-points ordinal patterns)
+
 cfg.delay      = 1;       % for delay 1 between points in ordinal patterns (successive points)
+
 cfg.windowSize = 512;     % for window size 512 in time points
+
 indata         = rand( 1, 7777 );
+
 for i = 4000:7000         % change of data complexity
+
   indata( i ) = 4*indata( i - 1 )*( 1 - indata( i - 1 ) );
+  
 end 
+
 outdata        = OPanalysis( cfg, indata );
 
 Values of ordinal-patterns-based measures are computed in maximally overlapping sliding windows in a fast way [UK13,U15].
