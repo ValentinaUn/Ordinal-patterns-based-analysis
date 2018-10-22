@@ -28,7 +28,7 @@ indata         = rand( 1, 7777 );
 
 for i = 4000:7000         % change of data complexity
 
-  indata( i ) = 4*indata( i - 1 )*( 1 - indata( i - 1 ) );
+  indata( i ) = 4 * indata( i - 1 ) * ( 1 - indata( i - 1 ) );
   
 end 
 
@@ -72,5 +72,7 @@ EPL (Europhysics Letters), 83(6), p.60005.
 [ZZR12] Zanin, M., Zunino, L., Rosso, O.A. and Papo, D., 2012. Permutation entropy and its main biomedical and econophysics applications: a review. Entropy, 14(8), pp.1553-1577.
  
 @author Valentina Unakafova
+
 @email UnakafovaValentina(at)gmail.com
+
 @date 18.07.2017
