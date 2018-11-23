@@ -40,7 +40,7 @@ indata = rand( 1, 7777 );
 
 for i = 4000:7000 % change of data complexity  
 
-indata( i ) = 4*indata( i - 1 )*( 1 - indata( i - 1 ) );  
+indata( i ) = 4 * indata( i - 1 ) * ( 1 - indata( i - 1 ) );  
 
 end  
 
