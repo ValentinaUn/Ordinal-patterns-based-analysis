@@ -1,5 +1,7 @@
 # Ordinal-patterns-based-analysis
 
+![Ordinal patterns based analysis](https://raw.githubusercontent.com/ValentinaUn/Ordinal-patterns-based-analysis/master/OPA.png)
+
 The OPA (ordinal-patterns-analysis) toolbox is intended for nonlinear analysis of multivariate time series with becoming more and more popular ordinal-patterns-based measures [1-5] which are efficiently computed [6,7] and visualized:  
 - permutation entropy (cfg.method = 'PE') [2]  
 - permutation entropy for ordinal patterns with tied ranks (cfg.method = 'eqPE') [4,8]  
