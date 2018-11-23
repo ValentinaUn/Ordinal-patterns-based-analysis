@@ -68,9 +68,8 @@ REFERENCES:
 
 [4] Keller, K., Unakafov, A.M. and Unakafova, V.A., 2014. Ordinal patterns, entropy, and EEG. Entropy, 16(12), pp.6212-6239.
 
-[5] Zanin, M., Zunino, L., Rosso, O.A. and Papo, D., 2012.  
+[5] Zanin, M., Zunino, L., Rosso, O.A. and Papo, D., 2012. Permutation entropy and its main biomedical and econophysics applications: a review. Entropy, 14(8), pp.1553-1577.  
 
-Permutation entropy and its main biomedical and econophysics applications: a review. Entropy, 14(8), pp.1553-1577.  
 [6] Unakafova, V.A., Keller, K., 2013. Efficiently measuring complexity on the basis of real-world Data. Entropy, 15(10), 4392-4415.  
 
 [7] Unakafova, V.A., 2015. Investigating measures of complexity for dynamical systems and for time series (Doctoral dissertation, University of Luebeck).  
